@@ -242,7 +242,7 @@ Start Content
       {% if b.is_active %}
         <div class="col-lg-6">
           <div class="cardStyle1">
-            <h4 class="mdTitle cs1Title"><a href="{% url 'main:blog' slug=b.slug %}">{{b.name}}</a></h4>
+            <h4 class="mdTitle cs1Title"><a href="{% url 'main:blogs' slug=b.slug %}">{{b.name}}</a></h4>
             <ul class="cardOptionCol">
               <li>{{b.timestamp.date}}</li>
               <li>{{b.author}}</li>
